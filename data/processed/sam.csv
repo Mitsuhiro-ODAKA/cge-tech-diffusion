@@ -1,0 +1,6 @@
+region,capital,labor,technology
+IN,100,200,1.0
+PK,60,150,0.7
+BD,40,120,0.5
+NP,10,50,0.3
+LK,20,80,0.4

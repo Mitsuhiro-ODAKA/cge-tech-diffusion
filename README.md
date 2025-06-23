@@ -21,6 +21,7 @@ Pyomo を使って「地域間技術拡散」を差分方程式でモデル化�
 ```bash
 # 例: pip インストール
 pip install -r requirements.txt
+```
 
 1. キャリブレーション
 ```bash
@@ -36,8 +37,10 @@ python src/scenarios.py \
   --params results/params.json \
   --out results/bau_tech_time_series.csv \
   --price 0
+```
 
 # Policy (例: カーボンプライス 50)
+```bash
 python src/scenarios.py \
   --params results/params.json \
   --out results/policy_tech_time_series.csv \
@@ -45,9 +48,9 @@ python src/scenarios.py \
 ```
 
 3. Jupyter で可視化
-`01_data_inspection.ipynb`：SAM・距離行列確認
-`02_model_run.ipynb`：キャリブレーション→シナリオ実行
-`03_visualization.ipynb`：拡散曲線・差分・感度分析・コロプレス
+- `01_data_inspection.ipynb`：SAM・距離行列確認
+- `02_model_run.ipynb`：キャリブレーション→シナリオ実行
+- `03_visualization.ipynb`：拡散曲線・差分・感度分析・コロプレス
 
 !()[figures/tech_diffusion_bau_vs_policy.png]
 !()[figures/sensitivity_south_asia.png]
