@@ -39,8 +39,8 @@ python src/scenarios.py \
   --price 0
 ```
 
-# Policy (例: カーボンプライス 50)
 ```bash
+# Policy (例: カーボンプライス 50)
 python src/scenarios.py \
   --params results/params.json \
   --out results/policy_tech_time_series.csv \
@@ -52,6 +52,6 @@ python src/scenarios.py \
 - `02_model_run.ipynb`：キャリブレーション→シナリオ実行
 - `03_visualization.ipynb`：拡散曲線・差分・感度分析・コロプレス
 
-!()[figures/tech_diffusion_bau_vs_policy.png]
-!()[figures/sensitivity_south_asia.png]
-!()[figures/choropleth_policy.png]
+!(imgs)[figures/tech_diffusion_bau_vs_policy.png]
+!(imgs)[figures/sensitivity_south_asia.png]
+!(imgs)[figures/choropleth_policy.png]
