@@ -52,6 +52,6 @@ python src/scenarios.py \
 - `02_model_run.ipynb`：キャリブレーション→シナリオ実行
 - `03_visualization.ipynb`：拡散曲線・差分・感度分析・コロプレス
 
-!(imgs)[figures/tech_diffusion_bau_vs_policy.png]
-!(imgs)[figures/sensitivity_south_asia.png]
-!(imgs)[figures/choropleth_policy.png]
+![img](figures/tech_diffusion_bau_vs_policy.png)
+![img](figures/sensitivity_south_asia.png)
+![img](figures/choropleth_policy.png)
